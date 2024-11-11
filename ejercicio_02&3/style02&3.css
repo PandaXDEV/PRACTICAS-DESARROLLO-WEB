@@ -1,0 +1,22 @@
+*{box-sizing: border-box; margin: 0;}
+
+.texto p{
+    text-align: center;
+    padding: 1rem;
+}
+
+.titulo{
+    padding: 1rem;
+}
+
+.main-titulos{
+    justify-content: center;
+    padding: 1rem;
+    color: rgb(191, 255, 0);
+    background-color: red;
+    display: flex;
+}
+
+.main-titulos > h2{
+    color: black;
+}

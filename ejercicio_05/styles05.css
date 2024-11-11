@@ -1,0 +1,54 @@
+*{margin: 0; box-sizing: border-box;}
+
+.lineanegra{
+    width: 100%;
+    height: 10rem;
+    background-color: black;
+}
+.lineanegra p{
+    color: white;
+    font-size: 3rem;
+    padding: 3rem;
+}
+.bolas div{
+    width: 25%;
+    height: 25rem;
+    text-align: center;
+    justify-content: center;
+}
+.bolas p{
+    margin-top: 10rem;
+    color: black;
+    font-size: 3rem;
+}
+.bolaazul{
+    background-color: blue;
+    border-radius: 100%;
+    float: left;
+}
+.bolaamarilla{
+    background-color: rgb(208, 255, 0);
+    border-radius: 100%;
+    float: left;
+}
+.bolaroja{
+    background-color: rgb(255, 0, 0);
+    border-radius: 100%;
+    float: left;
+}
+.bolaazul2{
+    background-color: blue;
+    border-radius: 100%;
+    float: right;
+}
+.lineaverde{
+    width: 100%;
+    height: 10rem;
+    background-color: green;
+    float: inline-end;
+}
+.lineaverde p{
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    padding: 3rem;
+}

@@ -1,0 +1,152 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header,
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Componentes del ordenador - Lista no numerada */
+.componentes-ordenador h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.lista-componentes {
+  margin-left: 27%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  max-width: 800px;
+  font-family: montserrat;
+}
+
+.componente {
+  width: calc(50% - 1rem);
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  position: relative;
+  padding-left: 90px;
+  font-size: 1.1rem;
+}
+
+.componente:hover {
+  box-shadow: rgb(106, 106, 106) 0 0 0.9rem;
+}
+
+.componente::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateY(-50%);
+}
+
+/* Subcomponentes */
+.subcomponente {
+  font-size: 0.9rem;
+  margin-left: 1rem;
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+/* Imágenes de fondo para los elrementos */
+.componente.procesador::before {
+  background-image: url("https://thumb.pccomponentes.com/w-530-530/articles/1084/10845780/1356-amd-ryzen-9-9900x-44-56ghz.jpg");
+}
+.componente.placa-base::before {
+  background-image: url("https://thumb.pccomponentes.com/w-530-530/articles/1085/10855602/1842-asus-rog-strix-x870-f-gaming-wifi.jpg");
+}
+.componente.ram::before {
+  background-image: url("https://thumb.pccomponentes.com/w-530-530/articles/1073/10733997/1846-corsair-vengeance-rgb-ddr5-6000mhz-64gb-2x32gb-cl30-optimizado-amd.jpg");
+}
+.componente.gpu::before {
+  background-image: url("https://thumb.pccomponentes.com/w-530-530/articles/1065/10657106/1376-pny-geforce-rtx-4090-oc-xlr8-gaming-verto-epic-x-rgb-tf-24gb-gddr6x.jpg");
+}
+.componente.fuente-alimentacion::before {
+  background-image: url("https://thumb.pccomponentes.com/w-530-530/articles/39/390904/1511-corsair-rmx-series-rm1000x-1000w-80-plus-gold-modular.jpg");
+}
+.componente.disco-duro::before {
+  background-image: url("https://thumb.pccomponentes.com/w-530-530/articles/28/281064/seagate-ironwolf-nas-8-tb-sata3-caracteristicas.jpg");
+}
+.componente.disco-ssd::before {
+  background-image: url("https://thumb.pccomponentes.com/w-530-530/articles/1006/10060348/1635-wd-black-sn770-2tb-nvme-ssd.jpg");
+}
+.componente.caja::before {
+  background-image: url("https://thumb.pccomponentes.com/w-530-530/articles/14/140977/a1.jpg");
+}
+.componente.refrigeracion::before {
+  background-image: url("https://thumb.pccomponentes.com/w-530-530/articles/1066/10663099/1587-corsair-icue-h150i-elite-lcd-xt-kit-de-refrigeracion-liquida-360mm-negro.jpg");
+}
+.componente.tarjeta-sonido::before {
+  background-image: url("https://thumb.pccomponentes.com/w-530-530/articles/30/309881/1807-creative-sound-blasterx-ae-5-plus-tarjeta-de-sonido.jpg");
+}
+
+/* Índice del módulo formativo - Lista numerada */
+.indice-curso h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.lista-indice {
+  list-style: decimal inside;
+}
+
+.lista-indice ol {
+  list-style-type: lower-alpha;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.lista-indice li {
+  margin-bottom: 0.5rem;
+}
+
+/* Definiciones */
+.definiciones h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+dd {
+  margin-left: 1.5rem;
+  font-style: italic;
+}
+
+/* Estilo para el pie de página */
+footer p {
+  font-size: 0.9rem;
+}
