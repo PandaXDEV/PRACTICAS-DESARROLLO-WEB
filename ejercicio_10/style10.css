@@ -1,0 +1,65 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo del body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Cabecera */
+.cabecera {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+/* Sección principal */
+.contenido-principal {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+/* Sección de Vídeo Local */
+.seccion-video-local,
+.seccion-video-online,
+.seccion-mapa {
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de los vídeos */
+.video-local {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.seccion-video-onlineYmapa {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Estilo del pie de página */
+.pie-pagina {
+  background-color: #000000;
+  color: #fff;
+  padding: 1rem 0 1rem 1rem;
+}
+
+/* Estilo para el audio de fondo */
+.audio-fondo {
+  display: none; /* No mostrar el reproductor de audio */
+}
